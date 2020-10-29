@@ -1,0 +1,70 @@
+#page-list {
+    width: 100vw;
+    height: 100vh;
+  } 
+  
+  #add {
+    margin-top: 3.2rem;
+  }
+  
+  #add .btn {
+    width: 100%;
+    color: var(--color-button-text);
+    height: 5.6rem;
+    background: var(--color-secondary);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer; 
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+  }
+  #add button:hover {
+    background-color: var(--color-secondary-dark)
+  }
+  
+  #add  label {
+    color: var(--color-secondary-dark);
+    font-size: 14px;
+  }
+
+  .react-datepicker-wrapper input  {
+    width:  100vw;
+    margin-top: 3.2rem;
+    font-size: 14px;
+    height: 42px;
+    border: 0;
+  }
+  
+  #page-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+    font-size:14px;
+  }
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  
+  @media (min-width: 700px) {
+    #page-list {
+      max-width: 100%;
+    }
+  
+   
+    #add .input-block + .input-block,
+    #add .select-block + .select-block
+    {
+      margin-top: 0;
+    }
+  
+    #page-list main {
+      padding: 3.2rem 0;
+      max-width: 740px;
+      margin: 0 auto;
+    }
+  }
