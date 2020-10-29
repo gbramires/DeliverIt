@@ -38,7 +38,7 @@ const Inicio: React.FC = () => {
   async function handleSubmit(e:FormEvent) {
     e.preventDefault();
     console.log(nome, valor, startDate2, startDate,)
-    if ( nome != '' &&  valor!= '' && startDate2!= '' &&  startDate != '') {
+    if ( nome !== '' &&  valor!== '' && startDate2!== '' &&  startDate !== '') {
       const response = await api.post('tickets', {
           nome,
           valor_original: valor,
